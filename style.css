@@ -58,14 +58,18 @@ h1 {
     font-weight: 600;
 }
 
+nav a:link, nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+}
+
 section {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #bbb;
-}
-
-section:nth-child(even) {
-    background-color: #ddd
 }
 
 .notebook-pic {
@@ -85,6 +89,24 @@ section:nth-child(even) {
 header {
     text-align: center;
     font-size: 2em;
+    padding: 0 0 12%;
+}
+
+.y-flex {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.reason {
+    text-align: center;
+    width: 299px;
+    height: 323px;
+} 
+
+h3 {
+    margin: 1em 0;
 }
 
 footer ul {
@@ -157,6 +179,13 @@ footer a:link, footer a:visited {
         background-position: center;
         margin: 0;
         padding: 0;
+    }
+
+    .y-i-write {
+        max-width: 683px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0 auto;
     }
 
     .small {
